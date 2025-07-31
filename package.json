@@ -1,0 +1,43 @@
+{
+  "name": "aiventure",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~5.0.4",
+    "@expo/vector-icons": "^14.0.2",
+    "@google/genai": "^1.12.0",
+    "@google/generative-ai": "^0.17.1",
+    "@react-native-async-storage/async-storage": "2.1.2",
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/stack": "^6.3.29",
+    "eas-cli": "^16.17.3",
+    "expo": "~53.0.20",
+    "expo-font": "~13.3.2",
+    "expo-image": "~2.4.0",
+    "expo-linear-gradient": "~14.1.5",
+    "expo-splash-screen": "~0.30.10",
+    "expo-status-bar": "~2.2.3",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-native": "0.79.5",
+    "react-native-dotenv": "^3.4.11",
+    "react-native-gesture-handler": "~2.24.0",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-screens": "~4.11.1",
+    "react-native-web": "^0.20.0",
+    "expo-constants": "~17.1.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~19.0.10",
+    "typescript": "~5.8.3"
+  },
+  "author": "Salah Eddine Boussettah",
+  "private": true
+}
